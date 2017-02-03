@@ -95,8 +95,9 @@ The common motivation behind parallel computing is that something is taking too 
         - `stopCluster(cl)`
         - once we are done we need to close the cluster so that resources such as memory are returned to the operating system.
     
-    - a simple example: simulate 100 datasets from normal distribution
+    - a simple example
         - you can easily do this with a `for` loop or `sapply`, but here is a parallel version
+        - simulate 100 datasets from normal distribution
         
     ```{r eval=FALSE}
     # Start up a parallel cluster
