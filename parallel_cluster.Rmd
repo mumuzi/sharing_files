@@ -48,9 +48,9 @@ The common motivation behind parallel computing is that something is taking too 
     - command lines in *Terminal*: an example
     
     ```{r eval=FALSE}
-        $ ssh qinli@zoology.ubc.ca   # connect to the main Zoology server
+        $ ssh your_account@zoology.ubc.ca   # connect to the main Zoology server
         Password: # type your password
-        qinli% ssh cluster    # ssh to the head-node
+        your_account% ssh cluster    # ssh to the head-node
         ~ $ ls
         ~ $ cd the_directory_you_want_to_work
         ~/work_directory $ screen -S mywork    # 'mywork' is the name of the screen
