@@ -21,6 +21,8 @@ The common motivation behind parallel computing is that something is taking too 
                 - `ssh your_account@zoology.ubc.ca`
                 - `ssh cluster` # 6 jobs only on the head node
                 - `ssh crunch**` # use another less busy node (up to 16 jobs)
+                  - to connect to other nodes, just ssh <nodename> from the head node
+                  - all your cluster data is available on all the nodes
             - ZCU wiki:
                 - cluster access: https://zcu.zoology.ubc.ca:442/wiki/index.php/Cluster_Access
                 - cluster status: https://clweb.zoology.ubc.ca/orwell/
