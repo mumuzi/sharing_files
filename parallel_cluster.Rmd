@@ -1,7 +1,6 @@
 ## Parallel computations in R
 
-- Qin Li
-- 2017.02
+Qin Li  *2017.02*
 
 #### Why am I doing this
 
