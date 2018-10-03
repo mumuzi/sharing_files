@@ -47,7 +47,7 @@ The common motivation behind parallel computing is that something is taking too 
         7. log out
             - keyboard command: `ctrl-d`
         8. directly kill a session
-            - command: `screen -S [screen name] -X quit`
+            - command: `screen -S your_screen_name -X quit`
     
     - command lines in *Terminal*: an example
     
